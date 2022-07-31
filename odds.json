@@ -1,0 +1,1363 @@
+[
+{
+   "name": "BUF",
+   "Odds": "+1.5",
+   "Team2": "LAR"
+  },
+  {
+   "name": "NO",
+   "Odds": "-3.5",
+   "Team2": "ATL"
+  },
+  {
+   "name": "SF",
+   "Odds": "-6.5",
+   "Team2": "CHI"
+  },
+  {
+   "name": "PIT",
+   "Odds": "+6.5",
+   "Team2": "CIN"
+  },
+  {
+   "name": "PHI",
+   "Odds": "-4.5",
+   "Team2": "DET"
+  },
+  {
+   "name": "NE",
+   "Odds": "+3.5",
+   "Team2": "MIA"
+  },
+  {
+   "name": "BAL",
+   "Odds": "-4.5",
+   "Team2": "NYJ"
+  },
+  {
+   "name": "JAX",
+   "Odds": "+4.5",
+   "Team2": "WAS"
+  },
+  {
+   "name": "CLE",
+   "Odds": "-3.5",
+   "Team2": "CAR"
+  },
+  {
+   "name": "IND",
+   "Odds": "-7.5",
+   "Team2": "HOU"
+  },
+  {
+   "name": "NYG",
+   "Odds": "+6.5",
+   "Team2": "TEN"
+  },
+  {
+   "name": "GB",
+   "Odds": "-1.5",
+   "Team2": "MIN"
+  },
+  {
+   "name": "KC",
+   "Odds": "-3.5",
+   "Team2": "ARI"
+  },
+  {
+   "name": "LV",
+   "Odds": "+4.5",
+   "Team2": "LAC"
+  },
+  {
+   "name": "TB",
+   "Odds": "-2.5",
+   "Team2": "DAL"
+  },
+  {
+   "name": "DEN",
+   "Odds": "-4.5",
+   "Team2": "SEA"
+  },
+{
+   "name": "LAC",
+   "Odds": "+3.5",
+   "Team2": "KC"
+  },
+  {
+   "name": "NYJ",
+   "Odds": "+6.5",
+   "Team2": "CLE"
+  },
+  {
+   "name": "WAS",
+   "Odds": "+1.5",
+   "Team2": "DET"
+  },
+  {
+   "name": "TB",
+   "Odds": "-3.5",
+   "Team2": "NO"
+  },
+  {
+   "name": "CAR",
+   "Odds": "+1.5",
+   "Team2": "NYG"
+  },
+  {
+   "name": "NE",
+   "Odds": "-1.5",
+   "Team2": "PIT"
+  },
+  {
+   "name": "IND",
+   "Odds": "-4.5",
+   "Team2": "JAX"
+  },
+  {
+   "name": "MIA",
+   "Odds": "+4.5",
+   "Team2": "BAL"
+  },
+  {
+   "name": "ATL",
+   "Odds": "+13.5",
+   "Team2": "LAR"
+  },
+  {
+   "name": "SEA",
+   "Odds": "+7.5",
+   "Team2": "SF"
+  },
+  {
+   "name": "CIN",
+   "Odds": "+0.5",
+   "Team2": "DAL"
+  },
+  {
+   "name": "HOU",
+   "Odds": "+10.5",
+   "Team2": "DEN"
+  },
+  {
+   "name": "ARI",
+   "Odds": "+3.5",
+   "Team2": "LV"
+  },
+  {
+   "name": "CHI",
+   "Odds": "+8.5",
+   "Team2": "GB"
+  },
+  {
+   "name": "TEN",
+   "Odds": "+7.5",
+   "Team2": "BUF"
+  },
+  {
+   "name": "MIN",
+   "Odds": "+2.5",
+   "Team2": "PHI"
+  },
+{
+   "name": "PIT",
+   "Odds": "+0.5",
+   "Team2": "CLE"
+  },
+  {
+   "name": "HOU",
+   "Odds": "+3.5",
+   "Team2": "CHI"
+  },
+  {
+   "name": "LV",
+   "Odds": "+1.5",
+   "Team2": "TEN"
+  },
+  {
+   "name": "KC",
+   "Odds": "-2.5",
+   "Team2": "IND"
+  },
+  {
+   "name": "BUF",
+   "Odds": "-3.5",
+   "Team2": "MIA"
+  },
+  {
+   "name": "DET",
+   "Odds": "+5.5",
+   "Team2": "MIN"
+  },
+  {
+   "name": "BAL",
+   "Odds": "+0.5",
+   "Team2": "NE"
+  },
+  {
+   "name": "CIN",
+   "Odds": "-5.5",
+   "Team2": "NYJ"
+  },
+  {
+   "name": "PHI",
+   "Odds": "+0.5",
+   "Team2": "WAS"
+  },
+  {
+   "name": "NO",
+   "Odds": "-2.5",
+   "Team2": "CAR"
+  },
+  {
+   "name": "JAX",
+   "Odds": "+10.5",
+   "Team2": "LAC"
+  },
+  {
+   "name": "LAR",
+   "Odds": "-2.5",
+   "Team2": "ARI"
+  },
+  {
+   "name": "ATL",
+   "Odds": "+4.5",
+   "Team2": "SEA"
+  },
+  {
+   "name": "GB",
+   "Odds": "+3.5",
+   "Team2": "TB"
+  },
+  {
+   "name": "SF",
+   "Odds": "+2.5",
+   "Team2": "DEN"
+  },
+  {
+   "name": "DAL",
+   "Odds": "-3.5",
+   "Team2": "NYG"
+  },
+  {
+   "name": "MIA",
+   "Odds": "+4.5",
+   "Team2": "CIN"
+  },
+  {
+   "name": "MIN",
+   "Odds": "-1.5",
+   "Team2": "NO"
+  },
+  {
+   "name": "CLE",
+   "Odds": "-4",
+   "Team2": "ATL"
+  },
+  {
+   "name": "WAS",
+   "Odds": "+5.5",
+   "Team2": "DAL"
+  },
+  {
+   "name": "SEA",
+   "Odds": "+1.5",
+   "Team2": "DET"
+  },
+  {
+   "name": "TEN",
+   "Odds": "+3.5",
+   "Team2": "IND"
+  },
+  {
+   "name": "CHI",
+   "Odds": "+2.5",
+   "Team2": "NYG"
+  },
+  {
+   "name": "JAX",
+   "Odds": "+6.5",
+   "Team2": "PHI"
+  },
+  {
+   "name": "NYJ",
+   "Odds": "+3.5",
+   "Team2": "PIT"
+  },
+  {
+   "name": "BUF",
+   "Odds": "-1.5",
+   "Team2": "BAL"
+  },
+  {
+   "name": "LAC",
+   "Odds": "-7.5",
+   "Team2": "HOU"
+  },
+  {
+   "name": "ARI",
+   "Odds": "-2.5",
+   "Team2": "CAR"
+  },
+  {
+   "name": "NE",
+   "Odds": "+5.5",
+   "Team2": "GB"
+  },
+  {
+   "name": "DEN",
+   "Odds": "+0.5",
+   "Team2": "LV"
+  },
+  {
+   "name": "KC",
+   "Odds": "+2.5",
+   "Team2": "TB"
+  },
+  {
+   "name": "LAR",
+   "Odds": "-1.5",
+   "Team2": "SF"
+  },
+{
+   "name": "IND",
+   "Odds": "+3.5",
+   "Team2": "DEN"
+  },
+  {
+   "name": "NYG",
+   "Odds": "+6.5",
+   "Team2": "GB"
+  },
+  {
+   "name": "PIT",
+   "Odds": "+8.5",
+   "Team2": "BUF"
+  },
+  {
+   "name": "LAC",
+   "Odds": "-4",
+   "Team2": "CLE"
+  },
+  {
+   "name": "CHI",
+   "Odds": "+4.5",
+   "Team2": "MIN"
+  },
+  {
+   "name": "DET",
+   "Odds": "+5.5",
+   "Team2": "NE"
+  },
+  {
+   "name": "SEA",
+   "Odds": "+4.5",
+   "Team2": "NO"
+  },
+  {
+   "name": "MIA",
+   "Odds": "-2.5",
+   "Team2": "NYJ"
+  },
+  {
+   "name": "ATL",
+   "Odds": "+10.5",
+   "Team2": "TB"
+  },
+  {
+   "name": "TEN",
+   "Odds": "+0.5",
+   "Team2": "WAS"
+  },
+  {
+   "name": "HOU",
+   "Odds": "+3.5",
+   "Team2": "JAX"
+  },
+  {
+   "name": "SF",
+   "Odds": "-3.5",
+   "Team2": "CAR"
+  },
+  {
+   "name": "DAL",
+   "Odds": "+4.5",
+   "Team2": "LAR"
+  },
+  {
+   "name": "PHI",
+   "Odds": "+2.5",
+   "Team2": "ARI"
+  },
+  {
+   "name": "CIN",
+   "Odds": "+1.5",
+   "Team2": "BAL"
+  },
+  {
+   "name": "LV",
+   "Odds": "+4.5",
+   "Team2": "KC"
+  },
+{
+   "name": "WAS",
+   "Odds": "+0.5",
+   "Team2": "CHI"
+  },
+  {
+   "name": "SF",
+   "Odds": "-5.5",
+   "Team2": "ATL"
+  },
+  {
+   "name": "NE",
+   "Odds": "+2",
+   "Team2": "CLE"
+  },
+  {
+   "name": "NYJ",
+   "Odds": "+7.5",
+   "Team2": "GB"
+  },
+  {
+   "name": "JAX",
+   "Odds": "+7.5",
+   "Team2": "IND"
+  },
+  {
+   "name": "MIN",
+   "Odds": "+3.5",
+   "Team2": "MIA"
+  },
+  {
+   "name": "CIN",
+   "Odds": "-1.5",
+   "Team2": "NO"
+  },
+  {
+   "name": "BAL",
+   "Odds": "-3.5",
+   "Team2": "NYG"
+  },
+  {
+   "name": "TB",
+   "Odds": "-3.5",
+   "Team2": "PIT"
+  },
+  {
+   "name": "CAR",
+   "Odds": "+9.5",
+   "Team2": "LAR"
+  },
+  {
+   "name": "ARI",
+   "Odds": "-2.5",
+   "Team2": "SEA"
+  },
+  {
+   "name": "BUF",
+   "Odds": "-1.5",
+   "Team2": "KC"
+  },
+  {
+   "name": "DAL",
+   "Odds": "+0.5",
+   "Team2": "PHI"
+  },
+  {
+   "name": "DEN",
+   "Odds": "+3.5",
+   "Team2": "LAC"
+  },
+{
+   "name": "NO",
+   "Odds": "+3.5",
+   "Team2": "ARI"
+  },
+  {
+   "name": "ATL",
+   "Odds": "+10.5",
+   "Team2": "CIN"
+  },
+  {
+   "name": "DET",
+   "Odds": "+6.5",
+   "Team2": "DAL"
+  },
+  {
+   "name": "IND",
+   "Odds": "+0.5",
+   "Team2": "TEN"
+  },
+  {
+   "name": "GB",
+   "Odds": "-3.5",
+   "Team2": "WAS"
+  },
+  {
+   "name": "TB",
+   "Odds": "-5.5",
+   "Team2": "CAR"
+  },
+  {
+   "name": "NYG",
+   "Odds": "+1.5",
+   "Team2": "JAX"
+  },
+  {
+   "name": "CLE",
+   "Odds": "+3",
+   "Team2": "BAL"
+  },
+  {
+   "name": "NYJ",
+   "Odds": "+7.5",
+   "Team2": "DEN"
+  },
+  {
+   "name": "HOU",
+   "Odds": "+8.5",
+   "Team2": "LV"
+  },
+  {
+   "name": "SEA",
+   "Odds": "+8.5",
+   "Team2": "LAC"
+  },
+  {
+   "name": "KC",
+   "Odds": "-1.5",
+   "Team2": "SF"
+  },
+  {
+   "name": "PIT",
+   "Odds": "+3.5",
+   "Team2": "MIA"
+  },
+  {
+   "name": "CHI",
+   "Odds": "+5.5",
+   "Team2": "NE"
+  },
+{
+   "name": "BAL",
+   "Odds": "+3.5",
+   "Team2": "TB"
+  },
+  {
+   "name": "DEN",
+   "Odds": "-6.5",
+   "Team2": "JAX"
+  },
+  {
+   "name": "CAR",
+   "Odds": "+0.5",
+   "Team2": "ATL"
+  },
+  {
+   "name": "CHI",
+   "Odds": "+7.5",
+   "Team2": "DAL"
+  },
+  {
+   "name": "MIA",
+   "Odds": "-3.5",
+   "Team2": "DET"
+  },
+  {
+   "name": "ARI",
+   "Odds": "+1.5",
+   "Team2": "MIN"
+  },
+  {
+   "name": "LV",
+   "Odds": "-1.5",
+   "Team2": "NO"
+  },
+  {
+   "name": "NE",
+   "Odds": "-1.5",
+   "Team2": "NYJ"
+  },
+  {
+   "name": "PIT",
+   "Odds": "+3.5",
+   "Team2": "PHI"
+  },
+  {
+   "name": "TEN",
+   "Odds": "-4.5",
+   "Team2": "HOU"
+  },
+  {
+   "name": "WAS",
+   "Odds": "-3",
+   "Team2": "IND"
+  },
+  {
+   "name": "SF",
+   "Odds": "+4.5",
+   "Team2": "LAR"
+  },
+  {
+   "name": "NYG",
+   "Odds": "+2.5",
+   "Team2": "SEA"
+  },
+  {
+   "name": "GB",
+   "Odds": "+4.5",
+   "Team2": "BUF"
+  },
+  {
+   "name": "CIN",
+   "Odds": "-4",
+   "Team2": "CLE"
+  },
+{
+   "name": "PHI",
+   "Odds": "-4.5",
+   "Team2": "HOU"
+  },
+  {
+   "name": "MIA",
+   "Odds": "-3.5",
+   "Team2": "CHI"
+  },
+  {
+   "name": "CAR",
+   "Odds": "+8.5",
+   "Team2": "CIN"
+  },
+  {
+   "name": "GB",
+   "Odds": "-5.5",
+   "Team2": "DET"
+  },
+  {
+   "name": "IND",
+   "Odds": "+0.5",
+   "Team2": "NE"
+  },
+  {
+   "name": "BUF",
+   "Odds": "-6.5",
+   "Team2": "NYJ"
+  },
+  {
+   "name": "MIN",
+   "Odds": "+0.5",
+   "Team2": "WAS"
+  },
+  {
+   "name": "LV",
+   "Odds": "-3.5",
+   "Team2": "JAX"
+  },
+  {
+   "name": "LAC",
+   "Odds": "-6.5",
+   "Team2": "ATL"
+  },
+  {
+   "name": "SEA",
+   "Odds": "+5.5",
+   "Team2": "ARI"
+  },
+  {
+   "name": "LAR",
+   "Odds": "+1.5",
+   "Team2": "TB"
+  },
+  {
+   "name": "TEN",
+   "Odds": "+5.5",
+   "Team2": "KC"
+  },
+  {
+   "name": "BAL",
+   "Odds": "-1.5",
+   "Team2": "NO"
+  },
+{
+   "name": "ATL",
+   "Odds": "+3.5",
+   "Team2": "CAR"
+  },
+  {
+   "name": "SEA",
+   "Odds": "+9.5",
+   "Team2": "TB"
+  },
+  {
+   "name": "MIN",
+   "Odds": "+7.5",
+   "Team2": "BUF"
+  },
+  {
+   "name": "DET",
+   "Odds": "+1.5",
+   "Team2": "CHI"
+  },
+  {
+   "name": "DEN",
+   "Odds": "+0.5",
+   "Team2": "TEN"
+  },
+  {
+   "name": "JAX",
+   "Odds": "+10.5",
+   "Team2": "KC"
+  },
+  {
+   "name": "CLE",
+   "Odds": "-1",
+   "Team2": "MIA"
+  },
+  {
+   "name": "HOU",
+   "Odds": "+3.5",
+   "Team2": "NYG"
+  },
+  {
+   "name": "NO",
+   "Odds": "+1.5",
+   "Team2": "PIT"
+  },
+  {
+   "name": "IND",
+   "Odds": "+2.5",
+   "Team2": "LV"
+  },
+  {
+   "name": "DAL",
+   "Odds": "+4.5",
+   "Team2": "GB"
+  },
+  {
+   "name": "ARI",
+   "Odds": "+6.5",
+   "Team2": "LAR"
+  },
+  {
+   "name": "LAC",
+   "Odds": "+0.5",
+   "Team2": "SF"
+  },
+  {
+   "name": "WAS",
+   "Odds": "+3.5",
+   "Team2": "PHI"
+  },
+{
+   "name": "TEN",
+   "Odds": "+4.5",
+   "Team2": "GB"
+  },
+  {
+   "name": "CHI",
+   "Odds": "+0.5",
+   "Team2": "ATL"
+  },
+  {
+   "name": "CLE",
+   "Odds": "+6.5",
+   "Team2": "BUF"
+  },
+  {
+   "name": "PHI",
+   "Odds": "+3.5",
+   "Team2": "IND"
+  },
+  {
+   "name": "NYJ",
+   "Odds": "+6.5",
+   "Team2": "NE"
+  },
+  {
+   "name": "LAR",
+   "Odds": "-3.5",
+   "Team2": "NO"
+  },
+  {
+   "name": "DET",
+   "Odds": "+1.5",
+   "Team2": "NYG"
+  },
+  {
+   "name": "CAR",
+   "Odds": "+7.5",
+   "Team2": "BAL"
+  },
+  {
+   "name": "WAS",
+   "Odds": "-3.5",
+   "Team2": "HOU"
+  },
+  {
+   "name": "LV",
+   "Odds": "+3.5",
+   "Team2": "DEN"
+  },
+  {
+   "name": "DAL",
+   "Odds": "+0.5",
+   "Team2": "MIN"
+  },
+  {
+   "name": "KC",
+   "Odds": "+1.5",
+   "Team2": "LAC"
+  },
+  {
+   "name": "CIN",
+   "Odds": "-2.5",
+   "Team2": "PIT"
+  },
+  {
+   "name": "SF",
+   "Odds": "-2.5",
+   "Team2": "ARI"
+  },
+{
+   "name": "BUF",
+   "Odds": "-8.5",
+   "Team2": "DET"
+  },
+  {
+   "name": "NYG",
+   "Odds": "+7.5",
+   "Team2": "DAL"
+  },
+  {
+   "name": "NE",
+   "Odds": "+1.5",
+   "Team2": "MIN"
+  },
+  {
+   "name": "TB",
+   "Odds": "-5",
+   "Team2": "CLE"
+  },
+  {
+   "name": "CIN",
+   "Odds": "+0.5",
+   "Team2": "TEN"
+  },
+  {
+   "name": "HOU",
+   "Odds": "+7.5",
+   "Team2": "MIA"
+  },
+  {
+   "name": "CHI",
+   "Odds": "+2.5",
+   "Team2": "NYJ"
+  },
+  {
+   "name": "ATL",
+   "Odds": "+5.5",
+   "Team2": "WAS"
+  },
+  {
+   "name": "DEN",
+   "Odds": "-4.5",
+   "Team2": "CAR"
+  },
+  {
+   "name": "BAL",
+   "Odds": "-4.5",
+   "Team2": "JAX"
+  },
+  {
+   "name": "LAC",
+   "Odds": "-1.5",
+   "Team2": "ARI"
+  },
+  {
+   "name": "LV",
+   "Odds": "-2.5",
+   "Team2": "SEA"
+  },
+  {
+   "name": "LAR",
+   "Odds": "+2.5",
+   "Team2": "KC"
+  },
+  {
+   "name": "NO",
+   "Odds": "+4.5",
+   "Team2": "SF"
+  },
+  {
+   "name": "GB",
+   "Odds": "+0.5",
+   "Team2": "PHI"
+  },
+  {
+   "name": "PIT",
+   "Odds": "+4.5",
+   "Team2": "IND"
+  },
+{
+   "name": "BUF",
+   "Odds": "-3.5",
+   "Team2": "NE"
+  },
+  {
+   "name": "PIT",
+   "Odds": "-2.5",
+   "Team2": "ATL"
+  },
+  {
+   "name": "GB",
+   "Odds": "-4.5",
+   "Team2": "CHI"
+  },
+  {
+   "name": "JAX",
+   "Odds": "+2.5",
+   "Team2": "DET"
+  },
+  {
+   "name": "NYJ",
+   "Odds": "+4.5",
+   "Team2": "MIN"
+  },
+  {
+   "name": "WAS",
+   "Odds": "+0.5",
+   "Team2": "NYG"
+  },
+  {
+   "name": "TEN",
+   "Odds": "+1.5",
+   "Team2": "PHI"
+  },
+  {
+   "name": "DEN",
+   "Odds": "+1.5",
+   "Team2": "BAL"
+  },
+  {
+   "name": "CLE",
+   "Odds": "-7",
+   "Team2": "HOU"
+  },
+  {
+   "name": "SEA",
+   "Odds": "+9.5",
+   "Team2": "LAR"
+  },
+  {
+   "name": "MIA",
+   "Odds": "+3.5",
+   "Team2": "SF"
+  },
+  {
+   "name": "KC",
+   "Odds": "+0.5",
+   "Team2": "CIN"
+  },
+  {
+   "name": "LAC",
+   "Odds": "+0.5",
+   "Team2": "LV"
+  },
+  {
+   "name": "IND",
+   "Odds": "+2.5",
+   "Team2": "DAL"
+  },
+  {
+   "name": "NO",
+   "Odds": "+6.5",
+   "Team2": "TB"
+  },
+ {
+   "name": "LV",
+   "Odds": "+4.5",
+   "Team2": "LAR"
+  },
+  {
+   "name": "NYJ",
+   "Odds": "+9.5",
+   "Team2": "BUF"
+  },
+  {
+   "name": "CLE",
+   "Odds": "+7",
+   "Team2": "CIN"
+  },
+  {
+   "name": "HOU",
+   "Odds": "+8.5",
+   "Team2": "DAL"
+  },
+  {
+   "name": "MIN",
+   "Odds": "-2.5",
+   "Team2": "DET"
+  },
+  {
+   "name": "JAX",
+   "Odds": "+6.5",
+   "Team2": "TEN"
+  },
+  {
+   "name": "PHI",
+   "Odds": "-1.5",
+   "Team2": "NYG"
+  },
+  {
+   "name": "BAL",
+   "Odds": "-2.5",
+   "Team2": "PIT"
+  },
+  {
+   "name": "MIA",
+   "Odds": "+5.5",
+   "Team2": "LAC"
+  },
+  {
+   "name": "TB",
+   "Odds": "+0.5",
+   "Team2": "SF"
+  },
+  {
+   "name": "CAR",
+   "Odds": "+2.5",
+   "Team2": "SEA"
+  },
+  {
+   "name": "KC",
+   "Odds": "+0.5",
+   "Team2": "DEN"
+  },
+  {
+   "name": "NE",
+   "Odds": "+2.5",
+   "Team2": "ARI"
+  },
+{
+   "name": "SF",
+   "Odds": "-3.5",
+   "Team2": "SEA"
+  },
+  {
+   "name": "MIA",
+   "Odds": "+6.5",
+   "Team2": "BUF"
+  },
+  {
+   "name": "BAL",
+   "Odds": "-3",
+   "Team2": "CLE"
+  },
+  {
+   "name": "IND",
+   "Odds": "+0.5",
+   "Team2": "MIN"
+  },
+  {
+   "name": "ATL",
+   "Odds": "+5.5",
+   "Team2": "NO"
+  },
+  {
+   "name": "NYG",
+   "Odds": "+3.5",
+   "Team2": "WAS"
+  },
+  {
+   "name": "PHI",
+   "Odds": "-2.5",
+   "Team2": "CHI"
+  },
+  {
+   "name": "DET",
+   "Odds": "+2.5",
+   "Team2": "NYJ"
+  },
+  {
+   "name": "PIT",
+   "Odds": "-1.5",
+   "Team2": "CAR"
+  },
+  {
+   "name": "DAL",
+   "Odds": "-3.5",
+   "Team2": "JAX"
+  },
+  {
+   "name": "KC",
+   "Odds": "-10.5",
+   "Team2": "HOU"
+  },
+  {
+   "name": "ARI",
+   "Odds": "+4.5",
+   "Team2": "DEN"
+  },
+  {
+   "name": "TEN",
+   "Odds": "+5.5",
+   "Team2": "LAC"
+  },
+  {
+   "name": "CIN",
+   "Odds": "+3.5",
+   "Team2": "TB"
+  },
+  {
+   "name": "NE",
+   "Odds": "+3.5",
+   "Team2": "LV"
+  },
+  {
+   "name": "LAR",
+   "Odds": "+0.5",
+   "Team2": "GB"
+  },
+{
+   "name": "JAX",
+   "Odds": "+2.5",
+   "Team2": "NYJ"
+  },
+  {
+   "name": "BUF",
+   "Odds": "-7.5",
+   "Team2": "CHI"
+  },
+  {
+   "name": "NO",
+   "Odds": "-2",
+   "Team2": "CLE"
+  },
+  {
+   "name": "HOU",
+   "Odds": "+8.5",
+   "Team2": "TEN"
+  },
+  {
+   "name": "SEA",
+   "Odds": "+10.5",
+   "Team2": "KC"
+  },
+  {
+   "name": "NYG",
+   "Odds": "+5.5",
+   "Team2": "MIN"
+  },
+  {
+   "name": "CIN",
+   "Odds": "-1.5",
+   "Team2": "NE"
+  },
+  {
+   "name": "DET",
+   "Odds": "+2.5",
+   "Team2": "CAR"
+  },
+  {
+   "name": "ATL",
+   "Odds": "+7.5",
+   "Team2": "BAL"
+  },
+  {
+   "name": "WAS",
+   "Odds": "+6.5",
+   "Team2": "SF"
+  },
+  {
+   "name": "PHI",
+   "Odds": "+3.5",
+   "Team2": "DAL"
+  },
+  {
+   "name": "LV",
+   "Odds": "-1.5",
+   "Team2": "PIT"
+  },
+  {
+   "name": "GB",
+   "Odds": "-1.5",
+   "Team2": "MIA"
+  },
+  {
+   "name": "DEN",
+   "Odds": "+3.5",
+   "Team2": "LAR"
+  },
+  {
+   "name": "TB",
+   "Odds": "-2.5",
+   "Team2": "ARI"
+  },
+  {
+   "name": "LAC",
+   "Odds": "-1.5",
+   "Team2": "IND"
+  },
+{
+   "name": "DAL",
+   "Odds": "+1.5",
+   "Team2": "TEN"
+  },
+  {
+   "name": "ARI",
+   "Odds": "-3.5",
+   "Team2": "ATL"
+  },
+  {
+   "name": "CHI",
+   "Odds": "+1.5",
+   "Team2": "DET"
+  },
+  {
+   "name": "DEN",
+   "Odds": "+4.5",
+   "Team2": "KC"
+  },
+  {
+   "name": "MIA",
+   "Odds": "+1.5",
+   "Team2": "NE"
+  },
+  {
+   "name": "IND",
+   "Odds": "-3.5",
+   "Team2": "NYG"
+  },
+  {
+   "name": "NO",
+   "Odds": "+3.5",
+   "Team2": "PHI"
+  },
+  {
+   "name": "CAR",
+   "Odds": "+9.5",
+   "Team2": "TB"
+  },
+  {
+   "name": "CLE",
+   "Odds": "-2",
+   "Team2": "WAS"
+  },
+  {
+   "name": "PIT",
+   "Odds": "+5.5",
+   "Team2": "BAL"
+  },
+  {
+   "name": "JAX",
+   "Odds": "+0.5",
+   "Team2": "HOU"
+  },
+  {
+   "name": "SF",
+   "Odds": "+1.5",
+   "Team2": "LV"
+  },
+  {
+   "name": "NYJ",
+   "Odds": "+1.5",
+   "Team2": "SEA"
+  },
+  {
+   "name": "MIN",
+   "Odds": "+5.5",
+   "Team2": "GB"
+  },
+  {
+   "name": "LAR",
+   "Odds": "+1.5",
+   "Team2": "LAC"
+  },
+  {
+   "name": "BUF",
+   "Odds": "+0.5",
+   "Team2": "CIN"
+  },
+{
+   "name": "TB",
+   "Odds": "-7.5",
+   "Team2": "ATL"
+  },
+  {
+   "name": "NE",
+   "Odds": "+7.5",
+   "Team2": "BUF"
+  },
+  {
+   "name": "MIN",
+   "Odds": "-1.5",
+   "Team2": "CHI"
+  },
+  {
+   "name": "BAL",
+   "Odds": "+3.5",
+   "Team2": "CIN"
+  },
+  {
+   "name": "LAC",
+   "Odds": "+0.5",
+   "Team2": "DEN"
+  },
+  {
+   "name": "DET",
+   "Odds": "+8.5",
+   "Team2": "GB"
+  },
+  {
+   "name": "HOU",
+   "Odds": "+8.5",
+   "Team2": "IND"
+  },
+  {
+   "name": "KC",
+   "Odds": "-2.5",
+   "Team2": "LV"
+  },
+  {
+   "name": "NYJ",
+   "Odds": "+5.5",
+   "Team2": "MIA"
+  },
+  {
+   "name": "CAR",
+   "Odds": "+4.5",
+   "Team2": "NO"
+  },
+  {
+   "name": "NYG",
+   "Odds": "+5.5",
+   "Team2": "PHI"
+  },
+  {
+   "name": "CLE",
+   "Odds": "-5",
+   "Team2": "PIT"
+  },
+  {
+   "name": "ARI",
+   "Odds": "+3.5",
+   "Team2": "SF"
+  },
+  {
+   "name": "LAR",
+   "Odds": "-5.5",
+   "Team2": "SEA"
+  },
+  {
+   "name": "DAL",
+   "Odds": "-1.5",
+   "Team2": "WAS"
+  },
+  {
+   "name": "TEN",
+   "Odds": "-3.5",
+   "Team2": "JAX"
+  }
+]
+  

@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="shortcut icon" href="#">                                                                   <title>NFL Simulation</title>  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="ctestt.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+<div class="header"> 
+
+    <div class="inner_header"> 
+        <div class="logo_container">
+            <a href="index.html">
+                <img src="Logos/weblogo.png" alt="Logo" width="58" height="78">
+               </a>
+        </div>
+        <ul class="navigation"> 
+            <a href="Computerpicks.html"><li>Computers Projections</li></a>
+            <a href="simulation.html"><li>Custom NFL Season Simulator</li></a>
+            <a href="Customgame.html"><li>Custom NFL Matchup Simulator</li></a>
+            
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+ <h1 class="title">NFL 2022-2023 Season Simulator</h1>
+ 
+ </head>
+ 
+        <body>
+            
+            
+ <a onClick="simulation(true)"class="btn">Refresh</a>
+ 
+ <div class="container">
+    <div class="Left">More Fixed</div>
+    <input type="range" id="my-slider" min="0" max="100" value="50" oninput="slider()">
+    <div class="Left">More Random</div>
+    <div id="slider-value">0</div>
+</div>
+ 
+ 
+<div id="table"></div>
+<br>
+<hr>
+<br>
+<div class="pick">
+    <p>Select your favorite NFL team to see how many simulations it took them to achieve certain milestones with their current day roster</p>
+    <br>
+
+  <form>  
+  <select name="NFL Teams" id="pick" onchange="time()">
+    <option disabled selected value> -- Select A Team -- </option>
+    <option value="49ers">49ers</option>
+    <option value="Bears">Bears</option>
+    <option value="Bengals">Bengals</option>
+    <option value="Bills">Bills</option>
+    <option value="Broncos">Broncos</option>
+    <option value="Browns">Browns</option>
+    <option value="Buccaneers">Buccaneers</option>
+    <option value="Cardinals">Cardinals</option>
+    <option value="Chargers">Chargers</option>
+    <option value="Chiefs">Chiefs</option>
+    <option value="Colts">Colts</option>
+    <option value="Commanders">Commanders</option>
+    <option value="Cowboys">Cowboys</option>
+    <option value="Dolphins">Dolphins</option>
+    <option value="Eagles">Eagles</option>
+    <option value="Falcons">Falcons</option>
+    <option value="Giants">Giants</option>
+    <option value="Jaguars">Jaguars</option>
+    <option value="Jets">Jets</option>
+    <option value="Lions">Lions</option>
+    <option value="Packers">Packers</option>
+    <option value="Panthers">Panthers</option>
+    <option value="Patriots">Patriots</option>
+    <option value="Raiders">Raiders</option>
+    <option value="Rams">Rams</option>
+    <option value="Ravens">Ravens</option>
+    <option value="Saints">Saints</option>
+    <option value="Seahawks">Seahawks</option>
+    <option value="Steelers">Steelers</option>
+    <option value="Texans">Texans</option>
+    <option value="Titans">Titans</option>
+    <option value="Vikings">Vikings</option>
+</select>
+
+
+   </form>
+  <div id="display">
+
+</div>
+
+
+</div>
+
+<br>
+<br>
+
+
+
+
+
+<script>
+let syear=0;
+let pyear=0;
+let cyear=0;
+let myear=0;
+const mySlider = document.getElementById("my-slider");
+const sliderValue = document.getElementById("slider-value");
+
+function slider(){
+    valPercent = (mySlider.value / mySlider.max)*100;
+    mySlider.style.background = `linear-gradient(to right, #3264fe ${valPercent}%, #d5d5d5 ${valPercent}%)`;
+    sliderValue.textContent = mySlider.value;
+}
+slider();
+class Team {
+    constructor(n,nick,s) {
+        this.wins=0;
+        this.losses=0;
+        this.name=n;
+        this.nickname=nick;
+        this.strength=s;
+    }
+    wingame() {
+        this.wins=this.wins+1;
+    }
+    losegame() {
+        this.losses=this.losses+1;
+    }
+}
+
+
+let finalarray;
+
+
+
+
+var lions=new Team("Lions","DET",-4.3);
+var packers=new Team("Packers","GB",8.8);
+var  vikings=new Team("Vikings","MIN",3.2);
+var   bears=new Team("Bears","CHI",-13.2);
+
+var seahawks=new Team("Seahawks","SEA",-7.9);
+var rams=new Team("Rams","LAR",7.7);
+var ers=new Team("49ers","SF",-6.1);
+var cardinals=new Team("Cardinals","ARI",4.1);
+
+var saints=new Team("Saints","NO",-.9);
+var bucs=new Team("Buccaneers","TB",7.4);
+var falcons=new Team("Falcons","ATL",-11.6);
+var panthers=new Team("Panthers","CAR",-7.5);
+
+var cowboys=new Team("Cowboys","DAL",7.2);
+var eagles=new Team("Eagles","PHI",-.1);
+var commanders=new Team("Commanders","WAS",-1.5);
+var giants=new Team("Giants","NYG",-4.1);
+
+var bills=new Team("Bills","BUF",9.4);
+var patriots=new Team("Patriots","NE",2.2);
+var dolphins=new Team("Dolphins","MIA",-1.6);
+var jets=new Team("Jets","NYJ",-12.8);
+
+var texans=new Team("Texans","HOU",-12);
+var colts=new Team("Colts","IND",4.2);
+var titans=new Team("Titans","TEN",.9);
+var jaguars=new Team("Jaguars","JAX",-8.2);
+
+var steelers=new Team("Steelers","PIT",-7.5);
+var browns=new Team("Browns","CLE",3.5);
+var bengals=new Team("Bengals","CIN",1.1);
+var ravens=new Team("Ravens","BAL",3.3);
+
+var chiefs=new Team("Chiefs","KC",7.6);
+var broncos=new Team("Broncos","DEN",3.3);
+var chargers=new Team("Chargers","LAC",6.2);
+var raiders =new Team("Raiders","LV",2.8);
+
+let teams=[];
+teams=[ers ,bears ,bengals ,bills
+,broncos ,browns ,bucs ,cardinals ,chargers ,chiefs ,colts ,commanders ,cowboys ,dolphins ,eagles ,falcons ,giants 
+,jaguars ,jets ,lions ,packers ,panthers ,patriots ,raiders ,rams ,ravens ,saints ,seahawks ,steelers ,texans ,titans ,vikings];
+var chosen;
+let play=false;
+let sup=false;
+let conf=false;
+let make=false;
+var put;
+
+function time() {
+    put="Loading...";
+    document.getElementById("display").innerHTML=put;
+    chosen=document.getElementById("pick").value;
+    if(sup==true) {
+        put="Loading...";
+        document.getElementById("display").innerHTML=put;
+        }
+    simulation(false);
+    
+    put="<br>";
+   
+
+    play=false;
+    sup=false;
+    conf=false;
+    make=false;
+    syear=0;
+    pyear=0;
+    cyear=0;
+    myear=0;
+
+}
+
+
+function playoff() {
+        if(play==false) {
+           
+        console.log("Playoffs "+pyear);
+        put+="It took the "+chosen;
+    put+="<br>";
+    put+="<br>";
+        if(pyear==1) {
+            put+=pyear+" year to make the playoffs";
+        }
+        else {
+        put+=pyear+" years to make the playoffs";
+        }
+        put+="<br>";
+        play=true;
+        }
+    }
+
+
+    function conference() {
+        if(conf==false) {
+           
+           console.log("Conference Championship "+cyear);
+          
+       
+           if(cyear==1) {
+               put+=cyear+" year to make the Conference Championship";
+           }
+           else {
+           put+=cyear+" years to make the Conference Championship";
+           }
+           put+="<br>";
+           conf=true;
+           }
+
+
+
+
+    }
+    function makes() {
+       console.log(make);
+        if(make==false) {
+           
+           console.log("Make the superbowl "+myear);
+          
+       
+           if(myear==1) {
+               put+=myear+" year to make the Superbowl";
+           }
+           else if(myear==1000) {
+            put+="&gt"+myear+" years to make the Superbowl";
+        }
+           else {
+           put+=myear+" years to make the Superbowl";
+           }
+           put+="<br>";
+           make=true;
+           }
+
+
+    }
+
+
+
+
+
+
+    function superbowl() {
+        
+        if(sup==false) {
+           
+        console.log("superbowl "+syear);
+        if(syear==1) {
+            put+=syear+" year to win the Superbowl";
+        }
+        else if(syear==1000) {
+            put+="&gt"+syear+" years to win the Superbowl";
+        }
+        else {
+        put+=syear+" years to win the Superbowl";
+        }
+        
+        setTimeout(() => { document.getElementById("display").innerHTML=put; ; }, 150);
+
+        sup=true;
+        }
+    }
+
+
+
+
+
+function  simulation (game) {
+    
+    var settings=mySlider.value;
+    let favor=10;
+    if(game==true) {
+    if(settings<=50) {
+        favor=settings/5;
+    }
+    else {
+        favor=settings*50;
+    }
+}
+else {
+    favor=15;
+
+}
+    
+    for(var t=0; t<teams.length; t++) {
+    teams[t].wins=0;
+    teams[t].losses=0;
+}
+function readTextFile(file, callback) {
+    var rawFile = new XMLHttpRequest();
+    rawFile.overrideMimeType("application/json");
+    rawFile.open("GET", file, true);
+    rawFile.onreadystatechange = function() {
+        if (rawFile.readyState === 4 && rawFile.status == "200") {
+            callback(rawFile.responseText);
+        }
+    }
+    rawFile.send(null);
+}
+
+
+
+
+
+let data;
+
+//usage:
+readTextFile("odds.json", function(text)  {
+data = JSON.parse(text);
+//after
+
+let amount=1;
+for(e=0; e<amount;e++) {
+for(i=0; i<data.length; i++) {
+    
+    let team1=data[i].name;
+    let odds=data[i].Odds;
+    let team2=data[i].Team2;
+    let numberodds = parseFloat(odds);
+    let team1fpi;
+    let team2fpi;
+    for(b=0; b<teams.length;b++) {
+        if(teams[b].nickname==team1) {
+            team1fpi=(favor+teams[b].strength)/2;
+
+        }
+        if(teams[b].nickname==team2) {
+            team2fpi=(favor+teams[b].strength)/2;
+        }
+      
+      
+    }
+    let totalfpi=team1fpi+team2fpi;
+        let total=favor+Math.abs(numberodds)+totalfpi;
+        let guess= Math.random() * (total+1);
+
+        if(guess>(favor/2)+Math.abs(numberodds)+Math.max(team1fpi,team2fpi)) {
+            //Team 1 with odds lost
+            if(numberodds<0) {
+            for(w=0; w<teams.length;w++) {
+                if(teams[w].nickname===team1) {
+                    teams[w].losegame();
+                }
+                if(teams[w].nickname===team2) {
+                    teams[w].wingame();
+
+                }
+            }
+            }
+            else {
+            for(w=0; w<teams.length;w++) {
+                if(teams[w].nickname===team1) {
+                    teams[w].wingame();
+                }
+                if(teams[w].nickname===team2) {
+                    teams[w].losegame();
+
+                }
+            }
+            }
+         
+
+        }
+        else {
+            if(numberodds<0) {
+            for(w=0; w<teams.length;w++) {
+                if(teams[w].nickname===team1) {
+                    teams[w].wingame();
+                }
+                if(teams[w].nickname===team2) {
+                    teams[w].losegame();
+
+                }
+            }
+            }
+            else {
+            for(w=0; w<teams.length;w++) {
+                if(teams[w].nickname===team1) {
+                    teams[w].losegame();
+                }
+                if(teams[w].nickname===team2) {
+                    teams[w].wingame();
+
+                }
+            }
+            }
+        }
+    
+
+    
+}
+}
+for(z=0; z<teams.length;z++) {
+    for(t=z+1;t<teams.length;t++) {
+        if(teams[t].wins>teams[z].wins) {
+            var temp=teams[t];
+            teams[t]=teams[z];
+            teams[z]=temp;
+
+
+        }
+    
+    }
+}
+
+//for(y=0; y<teams.length;y++) {
+    
+    //console.log(teams[y].name+"  W:"+Math.round((teams[y].wins))+" L:"+Math.round((teams[y].losses)));
+    
+//}
+
+
+// CODE
+if(game==true) {
+
+var html="<table>";
+setTimeout(() => {
+    html+='<threads>'
+    html+='<tr>';
+    html+='<td>'+'Rank'+'</td>';
+    html+='<td>'+'Name'+'</td>';
+    html+='<td>'+'Record'+'</td>';
+    html+='</tr>';
+    html+='</threads>'
+
+      for (var i=0; i<teams.length; i++) {
+        html+='<tr>';
+        html+='<td>'+(i+1)+'</td>';
+        html+='<td>'+teams[i].name+'</td>';
+        html+='<td>'+teams[i].wins/amount+"-"+teams[i].losses/amount+'</td>';
+        html+='</tr>';
+      }
+
+      document.getElementById("table").innerHTML=html
+},500);
+
+}
+else if(game==false) {
+    
+  for(var y=0; y<teams.length;y++) {
+    
+    if(teams[y].name==chosen) {
+        if(syear>=1000) {
+            conference();
+            makes();
+            superbowl();
+            
+            
+
+
+        }
+        
+        else if(y==0) {
+            
+           syear++;
+           if(play==false) {
+           pyear++; 
+        }
+        if(conf==false) {
+           cyear++;
+    }
+    if(make==false) {
+           myear++;
+}
+           playoff();
+           conference();
+           makes();
+           superbowl();
+         
+          
+           
+        }
+        else if(y==1) {
+            if(play==false) {
+            pyear++; 
+        }
+        if(conf==false) {
+            cyear++;
+        }
+        if(make==false) {
+           myear++;
+    }
+           playoff();
+           conference();
+          makes();
+          
+          simulation(false);
+
+        }
+        else if(y<4) {
+            if(play==false) {
+            pyear++;
+        }
+        if(conf==false) {
+            cyear++;
+        }
+            playoff();
+            conference();
+            simulation(false);
+
+        }
+        else if(y<=13) {
+            
+            syear++;
+            if(play==false) {
+            pyear++;
+        }
+        if(conf==false) {
+            cyear++;
+    }
+    if(make==false) {
+            myear++;
+}
+            playoff();
+            simulation(false);
+
+        }
+        else {
+            syear++;
+            if(play==false) {
+            pyear++;
+            }
+            if(conf==false) {
+            cyear++;
+            }
+            if(make==false) {
+            myear++;
+            }
+            simulation(false);
+        }
+    }
+  }
+  
+
+
+}
+//CODE
+//reset
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
+
+}
+
+simulation(true);
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+    <script>
+        window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+    </script>
+    <script>
+        function gotop(){
+        $('html, body').animate({ scrollTop: 0 }, 0);
+        }
+        </script>
+
+   </body>
+</html>

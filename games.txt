@@ -1,0 +1,16 @@
+rams 1.5 bills
+saints 3.5 falcons
+49ers 6.5 bears
+bengals 6.5 steelers
+eagles 4.5 lions
+dolphins 3.5 patriots
+ravens 4.5 jets
+commanders 4.5 jaguars
+browns 3.5 panthers
+colts 7.5 texans
+titans 6.5 giants
+packers 1.5 vikings
+chiefs 3.5 cardinals
+chargers 4.5 raiders
+bucs 2.5 cowboys
+broncos 4.5 seahawks
